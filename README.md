@@ -86,7 +86,6 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
     3. Click Create
 
   **Creating an Invoice**
-
     1. Navigate to **Invoices → Create New Invoice**
     2. Select a customer
     3. Add invoice items (description, quantity, unit price)
