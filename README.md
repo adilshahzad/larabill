@@ -42,6 +42,7 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
    cd larabill
    
 2. **Install dependencies**
+   ```
    composer install
    npm install && npm run dev
 
@@ -64,7 +65,7 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
 6. **Start the development server**
    php artisan serve
 
-7. **Vist** http://localhost:8000
+7. **Visit** http://localhost:8000
 
 ### 🛠️ Technology Stack
   - Backend: Laravel 11.x
