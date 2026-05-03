@@ -47,11 +47,12 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
    npm install && npm run dev
 
 3. **Environment setup**
+  ```
   cp .env.example .env
   php artisan key:generate  
 
 4. **Configure database** 
-  in .env file
+  ```in .env file
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
   DB_PORT=3306
@@ -60,9 +61,11 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
   DB_PASSWORD=
 
 5. **Run migrations and seeders**
+  ```
   php artisan migrate --seed
 
 6. **Start the development server**
+   ```
    php artisan serve
 
 7. **Visit** http://localhost:8000
