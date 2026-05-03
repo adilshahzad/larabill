@@ -17,6 +17,8 @@ return new class extends Migration
             $table->date('invoice_date');
             $table->date('due_date');
             $table->decimal('total_amount', 10, 2);
+            $table->decimal('advance_payment', 10, 2)->default(0); // Stores advance payments
+            $table->string('status')->default('unpaid'); // Values: unpaid, partially_paid, paid
             $table->timestamps();
         });
     }
