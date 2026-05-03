@@ -51,6 +51,7 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
   cp .env.example .env
   php artisan key:generate
   
+
 4. **Configure database** 
   ```
   in .env file
@@ -61,9 +62,11 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
   DB_USERNAME=root
   DB_PASSWORD=
 
+
 5. **Run migrations and seeders**
   ```
   php artisan migrate --seed
+
 
 6. **Start the development server**
    ```
@@ -81,7 +84,6 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
 
 ### 🔧 Usage Guide
   **Creating a Customer**
-
     1. Navigate to Customers → Add New Customer
     2. Fill in customer details (name, email, phone, address)
     3. Click Create
