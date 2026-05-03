@@ -52,7 +52,8 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
   php artisan key:generate  
 
 4. **Configure database** 
-  ```in .env file
+  ```
+  in .env file
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
   DB_PORT=3306
