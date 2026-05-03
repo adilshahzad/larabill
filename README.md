@@ -173,4 +173,8 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
     . Giving it a ⭐ on GitHub
     . Sharing it with others
     . Contributing to the project
+<<<<<<< HEAD
     . Sponsoring the development
+=======
+    . Sponsoring the development
+>>>>>>> b9e5e2b4ae17a77669dd3606eee2c1b4a61c1eba
