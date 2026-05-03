@@ -49,8 +49,8 @@ LaraBill is a feature-rich, open-source invoicing system that helps freelancers,
 3. **Environment setup**
   ```
   cp .env.example .env
-  php artisan key:generate  
-
+  php artisan key:generate
+  
 4. **Configure database** 
   ```
   in .env file
